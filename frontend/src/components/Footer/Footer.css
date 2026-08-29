@@ -8,6 +8,7 @@
     padding: 20px 8vw;
     padding-top: 80px;
     margin-top: 100px;
+    width: 100%;
 }
 .footer-content{
     width: 100%;
@@ -39,4 +40,14 @@
     margin: 20px 0px;
     background-color: grey;
     border: none;
+}
+@media (max-width: 750px){
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .footer-copyright{
+    text-align: center;
+  }
 }
